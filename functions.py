@@ -11,3 +11,8 @@ def print_two_again(arg1, arg2):
 
 def print_one_arg(arg1):
     print "arg1: %r" % arg1
+
+
+def add(a, b):
+    print "ADDING %d + %d" % (a, b)
+    return a + b
