@@ -16,3 +16,8 @@ def print_one_arg(arg1):
 def add(a, b):
     print "ADDING %d + %d" % (a, b)
     return a + b
+
+
+def multiply(x, y):
+    print "MULTIPLYING %d * %d" % (x, y)
+    return x * y
